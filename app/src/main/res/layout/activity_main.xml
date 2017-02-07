@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vincent.netwrokstudy.MainActivity">
+
+    <Button
+        android:id="@+id/btn_network"
+        android:layout_width="384dp"
+        android:layout_height="49dp"
+        android:text="网络学习"
+        tools:layout_editor_absoluteY="2dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/tv_okhttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OkHttp"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteY="72dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+</LinearLayout>
